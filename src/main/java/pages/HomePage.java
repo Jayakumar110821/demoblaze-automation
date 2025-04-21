@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
     WebDriver driver;
-
     By signUpButton = By.id("signin2");
 
     public HomePage(WebDriver driver) {

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-20T13:31:22 IST" name="Default suite" finished-at="2025-04-20T13:31:38 IST" duration-ms="16156">
+  <suite started-at="2025-04-21T13:15:12 IST" name="Default suite" finished-at="2025-04-21T13:15:33 IST" duration-ms="21009">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-20T13:31:22 IST" name="Default test" finished-at="2025-04-20T13:31:38 IST" duration-ms="16156">
+    <test started-at="2025-04-21T13:15:12 IST" name="Default test" finished-at="2025-04-21T13:15:33 IST" duration-ms="21009">
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-20T13:31:22 IST" name="setUpClass" finished-at="2025-04-20T13:31:23 IST" duration-ms="938" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:12 IST" name="setUpClass" finished-at="2025-04-21T13:15:12 IST" duration-ms="439" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@663f237a]]>
+                <![CDATA[org.testng.TestRunner@4277127c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-20T13:31:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-20T13:31:30 IST" duration-ms="7536" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-21T13:15:15 IST" duration-ms="2440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-20T13:31:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-20T13:31:34 IST" duration-ms="3107" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-21T13:15:18 IST" duration-ms="2993" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate Demo Blaze homepage"]]>
+                <![CDATA["Edu_1 - Verify Home Page Title"]]>
               </value>
             </param>
             <param index="1">
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-20T13:31:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-20T13:31:38 IST" duration-ms="4417" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-21T13:15:22 IST" duration-ms="4471" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate sign-up page navigation"]]>
+                <![CDATA["Edu_2 - Verify greeting message after login"]]>
               </value>
             </param>
             <param index="1">
@@ -69,7 +69,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-20T13:31:38 IST" name="tearDownClass" finished-at="2025-04-20T13:31:38 IST" duration-ms="58" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-21T13:15:24 IST" duration-ms="1839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edu_3 - Verify categories exist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sanity Check for Demo Blaze Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-21T13:15:30 IST" duration-ms="6062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edu_4 - Add item to cart and verify"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sanity Check for Demo Blaze Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-21T13:15:33 IST" duration-ms="2696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edu_5 - Verify contact form popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sanity Check for Demo Blaze Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@77eca502]" started-at="2025-04-21T13:15:33 IST" name="tearDownClass" finished-at="2025-04-21T13:15:33 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
